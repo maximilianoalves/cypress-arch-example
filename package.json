@@ -1,0 +1,26 @@
+{
+  "name": "cypress-arch-example",
+  "version": "0.0.1",
+  "description": "Exemplo de arquitetura para automações Web UI utilizando cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximilianoalves/cypress-arch-example.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Maximiliano Alves da Cruz <maximilianodacruz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximilianoalves/cypress-arch-example/issues"
+  },
+  "homepage": "https://github.com/maximilianoalves/cypress-arch-example#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  }
+}
