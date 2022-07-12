@@ -1,5 +1,5 @@
-import Login from '../support/pages/login/'
-import Home from '../support/pages/home'
+import Login from '../../support/pages/login'
+import Home from '../../support/pages/home'
 
 describe('Login', () => {
   it('Deve realizar o login com sucesso', () => {

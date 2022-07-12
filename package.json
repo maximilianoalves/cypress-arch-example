@@ -4,8 +4,10 @@
   "description": "Exemplo de arquitetura para automações Web UI utilizando cypress",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "./node_modules/.bin/cypress open",
-    "cypress:run": "./node_modules/.bin/cypress run --browser chrome"
+    "web:open": "./node_modules/.bin/cypress open -C cypress.web.config.js",
+    "web:run": "./node_modules/.bin/cypress run -C  cypress.web.config.js --browser chrome --headless",
+    "api:open": "./node_modules/.bin/cypress open -C cypress.api.config.js",
+    "api:run": "./node_modules/.bin/cypress run -C cypress.api.config.js --browser chrome --headless"
   },
   "repository": {
     "type": "git",
